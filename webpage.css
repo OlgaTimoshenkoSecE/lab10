@@ -1,0 +1,32 @@
+body{
+    background:linear-gradient(45deg, aliceblue 40%, cornflowerblue 0%);
+    background-attachment: fixed;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#navbar{
+    margin: 1em 5%;
+    border: 0.1em solid black;
+    width: 90%;
+}
+#aboutUs{
+    width: 50%;
+    float: right;
+    margin-right: 4%;
+    color: black;
+    font-size: 1em;
+    text-shadow: none;
+    border: 0.1em solid rgb(35, 72, 140);
+    box-shadow: 0.6em -0.1em 0.9em rgba(35, 72, 140, 0.674);
+}
+div.container{
+    margin-left: 4%;
+}
+div > p{
+    color:rgb(255, 255, 255);
+    font-weight: 600;
+    text-shadow: 3px 1px 3px rgba(0, 0, 0, 0.947);
+    font-size: 3em;
+}
+.bold{
+    color: rgb(35, 72, 140);
+}
