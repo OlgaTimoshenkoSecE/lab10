@@ -61,37 +61,67 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-        <p class="text showtext" id="secText"> Our photographers:</p>
+        <p class="text showtext secText"> Our photographers:</p>
 
 
 
 
-        <section class="container">
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+        <section class="container row">
+          <div class="card col mt-5" style="width: 18rem;">
+            <img src="person1.png" class="card-img-top" alt="no image!">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">John</h5>
+              <p class="card-text">Adventurous and witty, John specializes in outdoor photoshoots</p>
+              <a href="#" class="btn btn-primary">See more</a>
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+          <div class="card col mt-5" style="width: 18rem;">
+            <img src="person2.png" class="card-img-top" alt="no image!">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Francis</h5>
+              <p class="card-text">Versatile and kind, Francis does all kinds of photoshoots - wherever and whenever</p>
+              <a href="#" class="btn btn-primary">See more</a>
+            </div>
+          </div>
+          <div class="card col mt-5" style="width: 18rem;">
+            <img src="person3.png" class="card-img-top pt-3" alt="no image!">
+            <div class="card-body">
+              <h5 class="card-title">Mickael</h5>
+              <p class="card-text">Scrupulous Mickael, he built his career on wedding photoshoots</p>
+              <a href="#" class="btn btn-primary">See more</a>
             </div>
           </div>
         </section>
+      
+        <p class="text showtext secText" id="formSubmitAd"> Register now<br> and get 20% off!</p>
+        <form class="row g-3 m-5">
+          <div class="col">
+            <label for="inputEmail" class="visually-hidden">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email" autocomplete="off">            
+          </div>
+          <div class="col">
+            <label for="inputPassword" class="visually-hidden">Password</label>
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password" autocomplete="off">
+          </div>
+          <div class="col">
+            <label for="inputNamw" class="visually-hidden">Password</label>
+            <input type="password" class="form-control" id="inputName" placeholder="Password" autocomplete="off">
+          </div>
+          <div class="col">
+            <button type="submit" class="btn btn-danger mb-3">submit</button>
+          </div>
+          </form>
 
+        <div class="card credits">
+          <div class="card-header">
+            Credits
+          </div>
+          <div class="card-body">
+            <a href="https://unsplash.com" style="text-decoration: none;color:black">
+              <h6 class="card-title">Carousel images: https://unsplash.com</h6>
+            </a>
+            <a hrefclass="card-text">Designed by: Olga Timoshenko</a>
+          </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>

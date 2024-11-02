@@ -2,6 +2,7 @@ body{
     background:linear-gradient(45deg, aliceblue 40%, cornflowerblue 0%);
     background-attachment: fixed;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
 }
 #navbar{
     margin: 1em 5%;
@@ -45,7 +46,7 @@ div > p{
     text-shadow: 3px 1px 3px rgba(0, 0, 0, 0.947);
     font-size: 3em;
 }
-#secText{
+.secText{
     margin-top: 7em;
 }
 .c-box{
@@ -57,7 +58,33 @@ div > p{
     width: 100%;
     object-fit: cover;
 }
+.card-text{
+    text-shadow: none;
+    font-size: 1em;
+    color: black;
+    font-weight: 200;
+}
+.card, img{
+    border-radius: 50;
+}
+.card{
+    margin: 4em 1em 2em;
+}
 section.container{
-    display: flex;
-    flex-direction: row;
+    width: 100%;
+    margin: auto;
+}
+
+#formSubmitAd{
+    color:black;
+    text-shadow: none;
+}
+.credits{
+    margin-top: 8em;
+}
+form{
+    border: 0.1em solid black;
+    box-shadow: 0.2em 0.2em black;
+    background-color: rgba(240, 248, 255, 0.491);
+    width: 90%;
 }
